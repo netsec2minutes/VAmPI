@@ -5,8 +5,6 @@ on:
  pull_request:
    branches: [ master ]
 
-steps:
-  - name: Run Dastardly Action Step
-    uses: PortSwigger/dastardly-github-action@main
+uses: PortSwigger/dastardly-github-action@main
     with:
       target-url: 'https://ginandjuice.shop'
