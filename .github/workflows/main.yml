@@ -1,4 +1,4 @@
-name: DAST BURP
+name: DASTBURP
 on:
  push:
    branches: [ master ]
